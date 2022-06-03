@@ -1,0 +1,118 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(178, 162, 238);
+}
+
+.container {
+    max-width: 379px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+}
+
+.like {
+    border-radius: 50%;
+}
+
+.dis {
+    transform: rotate(180deg);
+}
+
+.btn {
+    margin-bottom: 15px;
+}
+
+img {
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    margin-top: 25px;
+}
+
+.newc {
+    background-color: transparent;
+}
+
+.new-person {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.comment {
+    width: 360px;
+    height: 300px;
+    background-color: initial;
+}
+
+.text {
+    max-width: 250px;
+    transform: translateY(-240px) translateX(60px);
+}
+
+.main {
+    background-color: rgb(157, 161, 180);
+}
+
+.main-head {
+    font-weight: 700;
+    max-width: 320px;
+    text-align: center;
+}
+
+.good-img {
+    width: 175px;
+    height: 220px;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+.font {
+    font-size: 0px;
+}
+
+.likes {
+    transform: translateX(90px);
+}
+
+.deliver {
+    background-color: rgb(235, 149, 87);
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.white {
+    background-color: rgb(122, 122, 221);
+    width: 50%;
+}
+
+.expensive {
+    border-radius: 50%;
+}
+
+.whiteness {
+    background-color: white;
+}
+
+.paid {
+    padding-top: 30px;
+}
+
+.whiteness-text {
+    color: #ffffff;
+}
