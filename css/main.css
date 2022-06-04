@@ -4,6 +4,8 @@
 
 body {
     background-color: rgb(178, 162, 238);
+    max-width: 375px;
+    align-items: center;
 }
 
 .container {
@@ -72,7 +74,7 @@ img {
 }
 
 .good-img {
-    width: 175px;
+    width: 170px;
     height: 220px;
 }
 
@@ -115,4 +117,49 @@ header {
 
 .whiteness-text {
     color: #ffffff;
+}
+
+.btn-group {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+}
+
+.position-fixed {
+    transform: translateX(140px) translateY(100px);
+    padding: 9px 15px;
+    align-items: center;
+}
+
+.position-fixed:hover {
+    border-radius: 50%;
+    background-color: rgb(85, 26, 211);
+    transition: all 0.01s ease;
+}
+
+.menyu {
+    position: fixed;
+    transform: translateX(-140px) translateY(-50px);
+}
+
+.big-menyu {
+    z-index: 100;
+    width: 200px;
+    padding: 30px 20px;
+    position: fixed;
+    background-color: rgb(105, 71, 71);
+    transform: translateY(-120px);
+}
+
+.menus {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.insta {
+    border-radius: 50%;
+}
+
+.fz-small {
+    font-size: 12px;
 }

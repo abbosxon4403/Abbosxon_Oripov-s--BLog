@@ -1,4 +1,4 @@
-let sub = document.querySelector(".btn");
+let sub = document.querySelector(".btn-danger");
 let fol = document.querySelector('.followers')
 sub.addEventListener("click", () => {
     sub.className += ("bg-info ")
@@ -68,4 +68,36 @@ emerald.addEventListener("click", () => {
     } else {
         alert('hato')
     }
+})
+
+let hamburger = document.querySelector('.menyu')
+let menyu = document.querySelector('.big-menyu')
+let btn_close = document.querySelector('.btn-close')
+menyu.className = ('d-none')
+hamburger.addEventListener('click', () => {
+    menyu.className = ('big-menyu')
+    btn_close.addEventListener('click', () => {
+        menyu.className = ('d-none')
+    })
+})
+
+let iname = document.querySelector('.i-name')
+let inumber = document.querySelector('.i-number')
+let ipw = document.querySelector('.i-pw')
+let iem = document.querySelector('.i-em')
+
+let tname = document.querySelector('.name')
+let tnumber = document.querySelector('.number')
+let temail = document.querySelector('.email')
+let tpassword = document.querySelector('.password')
+
+
+let formik = document.getElementById('former')
+
+formik.addEventListener("submit", function(event) {
+    event.preventDefault()
+    tname.textContent = iname.value
+    tnumber.textContent = inumber.value
+    temail.textContent = iem.value
+    tpassword.textContent = ipw.value
 })

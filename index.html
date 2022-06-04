@@ -15,6 +15,38 @@
 <body>
 
     <div id="following" class="text-center mt-2">
+        <button class="border-0 bg-transparent">
+            <img class="menyu" src="./assets/menyu.png" with="70" height="49" alt="menu">
+        </button>
+        <div class="big-menyu d-block text-start">
+            <div class="d-flex justify-content-between">
+                <div class="d-block">
+                    <div class="d-block">
+                        <a class="whiteness-text menus text-decoration-none" href="https://google.com">Menu;</a>
+                    </div>
+                    <div class="d-block">
+                        <a class="whiteness-text menus text-decoration-none" href="https://google.com">followers;</a>
+                    </div>
+                    <div class="d-block">
+                        <a class="whiteness-text menus text-decoration-none" href="https://google.com">Blog;</a>
+                    </div>
+                </div>
+                <button class="btn btn-close"></button>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <a href="https://t.me/yosh_dasturchi_007">
+                    <img src="./assets/telegram.png" width="40" height="40" alt="telegram">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="insta" src="./assets/insta.jpg" width="40" height="40" alt="insta">
+                </a>
+            </div>
+
+        </div>
+        <a href="#footer" class="position-fixed">
+            <img src="./assets/arrow_down.webp" width="50" height="50" alt="arrow down">
+        </a>
         <a href="./assets/myPhoto.jpg">
             <img class="img" src="./assets/myPhoto.jpg" alt="logo">
         </a>
@@ -91,7 +123,7 @@
             <ul class="list  text-danger">
                 <li class="item">Make a new site for our subscribers</li>
                 <li class="item">Make a food Deliver programm</li>
-                <li class="item">Make a games for our gamer-subscribers</li>
+                <li class="item">Make games for our gamer-subscribers</li>
                 <li class="item">We are planning to Create good programm for Uzbekistan</li>
             </ul>
             <div class="wrappers d-flex">
@@ -113,7 +145,7 @@
                 <em class="ms-3 click-there">click here</em>
             </div>
             <div class="all">
-                <a href="https://evos.com/" class=" pizza d-block mb-2 text-info"></a>
+                <a href="https://evos.com/" class="pizza d-block mb-2 text-info"></a>
                 <a href="https://evos.com/" class="burger d-block mb-2 text-info"></a>
                 <a href="https://evos.com/" class="hotdog d-block mb-2 text-info"></a>
                 <a href="https://evos.com/" class="lavash d-block mb-2 text-info"></a>
@@ -122,12 +154,29 @@
         </div>
 
         <div class="container mt-5 ">
-            <h3>Subscribe to my NewsList</h3>
-            <form>
-                <input type="text" class="form-control-lg mb-3" placeholder="Your full name..." required>
-                <input type="email" class="form-control-lg" placeholder="email..." required>
-                <button type="submit" class="btn text-warning btn-info form-control w-50 mt-3">Subscribe</button>
+            <h3 class="text-center">Subscribe to my NewsList</h3>
+            <form id="former">
+                <input type="text" class="i-name form-control-lg mb-3" placeholder="Your full name..." required>
+                <input type="number" class="i-number form-control-lg mb-3" placeholder="Number" required>
+                <input type="text" class="i-pw form-control-lg mb-3" placeholder="create a password" required>
+                <input type="email" class="i-em form-control-lg" placeholder="email..." required>
+                <button type="submit" class="i-sub btn subscribe-btn text-warning btn-info form-control w-50 mt-3">Subscribe</button>
             </form>
+            <div class="d-flex">
+                <div class="d-block justify-content-between">
+                    <p>Name:</p>
+                    <p>Number:</p>
+                    <p>email:</p>
+                    <p>password:</p>
+                </div>
+                <div class="d-block justify-content-between">
+                    <i class="fz-small d-block ms-2 name mb-4"></i>
+                    <i class="fz-small d-block ms-2 mb-4 number"></i>
+                    <i class="fz-small d-block ms-2 mb-4 email"></i>
+                    <i class="fz-small d-block ms-2 mb-4 password"></i>
+
+                </div>
+            </div>
 
             <h3 class="others text-center text-success paid">Paid Subscribes:</h3>
             <div class="wrapp">
@@ -135,27 +184,27 @@
                     <img src="./assets/gold.webp" class="expensive me-3" width="50" height="50" alt="gold">
                     <i class="gold">gold subscribe: 1.69$/month</i>
                 </div>
-                <p>lets you to see my site with my future ideas !</p>
+                <i class="text-primary">lets you to see my site with my future ideas !</i>
                 <button class="btn btn-warning goldd">Subscribe</button>
                 <div class="d-flex align-items-sm-center">
                     <img src="./assets/deamond.webp" class="expensive me-3" width="50" height="50" alt="diamond">
                     <i class="diamond">diamond subscribe: 3.49$/month</i>
                 </div>
-                <p>lets you 14% sale for every product in my site !</p>
+                <i class="text-primary">lets you 14% sale for every product in my site !</i>
                 <button class="btn btn-info diamondd">Subscribe</button>
                 <div class="d-flex align-items-sm-center">
                     <img src="./assets/emerald.webp" class="expensive me-3" width="50" height="50" alt="emerald">
                     <i class="emerald">emerald subscribe: 8.29$/month</i>
                 </div>
-                <p>lets you to Create your own post every weekend and lets you talk with me !</p>
+                <i class="text-primary">lets you to Create your own post every weekend and lets you talk with me !</i>
                 <button class="btn btn-success emeraldd">Subscribe</button>
             </div>
 
         </div>
 
-        <h2 class="text-center whiteness-text">Footer</h2>
 
-        <footer class="footer container bg bg-dark text-primary d-block">
+        <h2 class="text-center whiteness-text">Last</h2>
+        <footer id="footer" class="footer container bg bg-dark text-primary d-block">
             <div class="d-flex text-center">
                 <a href="./assets/myPhoto.jpg">
                     <img class="img" src="./assets/myPhoto.jpg" alt="logo">
@@ -164,7 +213,7 @@
                     <h3 class="d-block">Abbosxon Oripov</h3>
                 </a>
             </div>
-            <div class="d-block">
+            <div class="d-flex">
                 <a href="#following">
                     <button class="btn btn-outline-warning">Followers</button>
                 </a>
@@ -184,6 +233,14 @@
                     <button class="btn btn-outline-light">Deliver</button>
                 </a>
             </div>
+
+            <div class="d-block">
+                <em class="text-black">Admin phone number:</em>
+                <p>He takes a call only for important situations</p>
+                <a href="tel:998909534403" class="text-decoration-none text-success">+998 (90) 953 44 03</a>
+            </div>
+            <hr>
+            <i>Abbosxon_Oripov @blog Copyright by D.Mark</i>
         </footer>
     </section>
 
